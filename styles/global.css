@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme  {
+  --color-black: #1e1e1e;
+  --color-white: #e7e7d8;
+  --color-eagle: #afac95;
+  --color-orange: #ea4125;
+}
+
+.font-display {
+  font-family: var(--font-basement), sans-serif;
+  font-weight: 700;
+}
+
+:root { font-family: var(--font-inter), sans-serif; }
+@supports (font-variation-settings: normal) {
+  /* Use variable font if supported */
+  :root {
+    font-family: var(--font-interVariable), sans-serif;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.animate-marquee {
+  animation: marquee 15s linear infinite;
+}
+
+.gradient-grid {
+  background-image: radial-gradient(circle at center center,
+      transparent 0%,
+      rgba(255, 255, 255, 0) 99%),
+    repeating-linear-gradient(0deg,
+      rgba(205, 205, 205, 0.2) 0px,
+      rgba(205, 205, 205, 0.2) 1px,
+      transparent 1px,
+      transparent 6px),
+    repeating-linear-gradient(90deg,
+      rgba(205, 205, 205, 0.2) 0px,
+      rgba(205, 205, 205, 0.2) 1px,
+      transparent 1px,
+      transparent 6px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}

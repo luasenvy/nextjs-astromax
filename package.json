@@ -1,30 +1,46 @@
 {
-  "name": "@lexington/starter",
-  "type": "module",
-  "version": "0.0.1",
-  "private": true,
+  "name": "nextjs-astromax",
+  "description": "Astromax Theme for Next.js",
+  "version": "1.0.0",
+  "author": {
+    "name": "luasenvy",
+    "email": "luas.envy@gmail.com",
+    "url": "https://www.luas.kr"
+  },
+  "license": "MIT",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "next dev",
+    "build": "rm -rf .next && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky"
   },
   "dependencies": {
-    "@astrojs/preact": "^3.5.3",
-    "@astrojs/sitemap": "^3.1.6",
-    "astro": "^4.15.4",
-    "npm": "^10.8.3",
-    "preact": "^10.23.2"
+    "next": "^14.2.14"
   },
-
-
-  
   "devDependencies": {
-
-    "@tailwindcss/forms": "^0.5.9",
-    "@tailwindcss/typography": "^0.5.15",
-    "@tailwindcss/vite": "^4.0.0-alpha.23",
-    "tailwindcss": "^4.0.0-alpha.23"
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@splidejs/react-splide": "^0.7.12",
+    "@tailwindcss/postcss": "^4.0.0-alpha.26",
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.8.0",
+    "@typescript-eslint/parser": "^8.8.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "mailgo": "^0.12.2",
+    "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.0.0-alpha.26",
+    "typescript": "^5.6.2"
   }
 }
