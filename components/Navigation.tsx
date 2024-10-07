@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Navigation() {
@@ -21,6 +23,7 @@ export default function Navigation() {
             <Link
               href="mailto:your@name.com"
               className="w-full bg-orange duration-200 font-display hover:bg-blacktext-white lg:w-auto px-6 py-4 sm:rounded-full text-black hover:text-white text-center text-xs uppercase"
+              onClick={(e) => e.preventDefault()}
             >
               Get a quote
             </Link>
