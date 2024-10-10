@@ -6,6 +6,9 @@ import localFont from "next/font/local";
 export const metadata = {
   title: "Astromax",
   description: "Astromax Theme",
+  generator: "Next.js",
+  authors: [{ name: "Michael Andreuzza", url: "https://github.com/michael-andreuzza/astromax" }],
+  keywords: "Add your keywords here",
 };
 
 export const viewport: Viewport = {
