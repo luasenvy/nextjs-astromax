@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
-@theme  {
-  --color-black: #1e1e1e;
-  --color-white: #e7e7d8;
-  --color-eagle: #afac95;
-  --color-orange: #ea4125;
+@config "../tailwind.config.js";
+
+@layer base {
+  :root {
+    --black: "#1e1e1e";
+    --white: "#e7e7d8";
+    --eagle: "#afac95";
+    --orange: "#ea4125";
+  }
 }
 
 .font-display {
