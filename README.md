@@ -5,8 +5,8 @@
 ## Tested Environment
 
 - debian - bookworm
-- nodejs - v20.17.0
-- npm - 10.8.3
+- nodejs - v22.14.0
+- npm - 11.2.0
 
 ## npm commands
 
