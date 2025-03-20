@@ -1,4 +1,4 @@
-export default function Intro() {
+export default async function Intro() {
   return (
     <section className="border-white/20 border-b ">
       <div className="mx-auto border-white/20 border-x max-w-7xl gradient-grid">

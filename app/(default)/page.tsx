@@ -4,7 +4,7 @@ import Intro from "@/components/Intro";
 import Services from "@/components/Services";
 import Work from "@/components/Work";
 
-export default function HomePage() {
+export default async function HomePage() {
   return (
     <>
       <Hero />
