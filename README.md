@@ -1,6 +1,6 @@
 # nextjs-astromax
 
-[Astromax Theme](https://github.com/michael-andreuzza/astromax) for [Next.js](https://nextjs.org/)<sub>(14+ App Router)</sub>
+[Astromax Theme](https://github.com/michael-andreuzza/astromax) for [Next.js](https://nextjs.org/)<sub>(15+ App Router)</sub>
 
 ## Tested Environment
 
