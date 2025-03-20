@@ -1,19 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --black: #1e1e1e;
-  --white: #e7e7d8;
-  --eagle: #afac95;
-  --orange: #ea4125;
-}
-
-@theme {
-  --color-black: var(--black);
-  --color-white: var(--white);
-  --color-eagle: var(--eagle);
-  --color-orange: var(--orange);
+  --color-black: #1e1e1e;
+  --color-white: #e7e7d8;
+  --color-eagle: #afac95;
+  --color-orange: #ea4125;
 
   --font-basement: bsblack;
+  --font-inter: Inter;
+
   --font-display: var(--font-basement);
 
   @keyframes marquee {
