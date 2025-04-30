@@ -1,8 +1,8 @@
-import Cta from "@/components/Cta";
-import Hero from "@/components/Hero";
-import Intro from "@/components/Intro";
-import Services from "@/components/Services";
-import Work from "@/components/Work";
+import { Cta } from "@/components/Cta";
+import { Hero } from "@/components/Hero";
+import { Intro } from "@/components/Intro";
+import { Services } from "@/components/Services";
+import { Work } from "@/components/Work";
 
 export default async function HomePage() {
   return (

@@ -16,7 +16,7 @@ import Work7Image from "@/public/work/7.png";
 import Work8Image from "@/public/work/8.png";
 import Work9Image from "@/public/work/9.png";
 
-export default function Work() {
+export function Work() {
   return (
     <>
       <section className="border-b border-white/20 bg-accent-500">

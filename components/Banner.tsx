@@ -1,4 +1,4 @@
-export default function Banner() {
+export function Banner() {
   return (
     <section className="border-white/20 border-y">
       <div className="text-white mx-auto">

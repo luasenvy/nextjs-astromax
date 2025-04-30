@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function Navigation() {
+export function Navigation() {
   return (
     <section className="mx-auto border-white/20 border-t 2xl:max-w-7xl bg-black border-b justify-center lg:fixed lg:z-50 w-full">
       <div className="mx-auto bg-black justify-center w-full">

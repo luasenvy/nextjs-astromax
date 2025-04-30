@@ -1,4 +1,4 @@
-export default function Testimonials() {
+export function Testimonials() {
   return (
     <div className="text-white text-xs gap-3 gap-y-12 grid grid-cols-1 md:grid-cols-4 mx-auto p-8 sm:grid-cols-2">
       <div className="flex flex-col justify-between h-full">

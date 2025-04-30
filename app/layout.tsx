@@ -1,4 +1,4 @@
-import "@/styles/global.css";
+import "@/styles/tailwind.css";
 
 import type { Viewport } from "next";
 import localFont from "next/font/local";
@@ -147,7 +147,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="selection:bg-orange selection:text-white">
       <body
-        className={`${bsblack.variable} ${inter.variable} ${interVariable.className} mx-auto bg-black 2xl:max-w-7xl`}
+        className={`${bsblack.variable} ${inter.variable} ${interVariable.variable} mx-auto bg-black 2xl:max-w-7xl`}
       >
         {children}
       </body>

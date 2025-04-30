@@ -1,4 +1,4 @@
-export default async function Services() {
+export async function Services() {
   return (
     <section className="border-white/20 border-b">
       <div className="mx-auto border-white/20 border-x max-w-7xl">

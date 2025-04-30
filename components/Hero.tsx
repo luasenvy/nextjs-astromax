@@ -1,7 +1,7 @@
-import Banner from "@/components/Banner";
-import Testimonials from "@/components/Testimonials";
+import { Banner } from "@/components/Banner";
+import { Testimonials } from "@/components/Testimonials";
 
-export default async function Hero() {
+export async function Hero() {
   return (
     <section className="border-white/20 border-b">
       <div className="mx-auto border-white/20 border-x max-w-7xl">
