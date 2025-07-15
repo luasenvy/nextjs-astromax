@@ -5,16 +5,16 @@ import "@splidejs/splide/dist/css/splide.min.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import Image from "next/image";
 
-import Work1Image from "@/public/work/1.png";
-import Work10Image from "@/public/work/10.png";
-import Work2Image from "@/public/work/2.png";
-import Work3Image from "@/public/work/3.png";
-import Work4Image from "@/public/work/4.png";
-import Work5Image from "@/public/work/5.png";
-import Work6Image from "@/public/work/6.png";
-import Work7Image from "@/public/work/7.png";
-import Work8Image from "@/public/work/8.png";
-import Work9Image from "@/public/work/9.png";
+import Work1Image from "@/public/work/1.webp";
+import Work10Image from "@/public/work/10.webp";
+import Work2Image from "@/public/work/2.webp";
+import Work3Image from "@/public/work/3.webp";
+import Work4Image from "@/public/work/4.webp";
+import Work5Image from "@/public/work/5.webp";
+import Work6Image from "@/public/work/6.webp";
+import Work7Image from "@/public/work/7.webp";
+import Work8Image from "@/public/work/8.webp";
+import Work9Image from "@/public/work/9.webp";
 
 export function Work() {
   return (
