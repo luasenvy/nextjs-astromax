@@ -1,16 +1,16 @@
 export async function Services() {
   return (
     <section className="border-white/20 border-b">
-      <div className="mx-auto border-white/20 border-x max-w-7xl">
+      <div className="mx-auto max-w-7xl border-white/20 border-x">
         <div className="p-8">
-          <p className="text-white font-display uppercase text-3xl lg:text-6xl">
+          <p className="font-display text-3xl text-white uppercase lg:text-6xl">
             our services; Explained
           </p>
         </div>
-        <div className="text-white text-xs gap-3 gap-y-12 grid grid-cols-1 md:grid-cols-4 mx-auto p-8 sm:grid-cols-2 md:gap-y-0">
+        <div className="mx-auto grid grid-cols-1 gap-3 gap-y-12 p-8 text-white text-xs sm:grid-cols-2 md:grid-cols-4 md:gap-y-0">
           <div>
             <div>
-              <span className="text-white font-display text-xl">Design in Figma or Browser:</span>
+              <span className="font-display text-white text-xl">Design in Figma or Browser:</span>
             </div>
             <p className="mt-3 text-eagle">
               I offer professional design services using Figma or I can work directly in the
@@ -20,7 +20,7 @@ export async function Services() {
           </div>
           <div>
             <div>
-              <span className="text-white font-display text-xl">
+              <span className="font-display text-white text-xl">
                 Redesign of Existing Projects:
               </span>
             </div>
@@ -32,7 +32,7 @@ export async function Services() {
           </div>
           <div>
             <div>
-              <span className="text-white font-display text-xl">
+              <span className="font-display text-white text-xl">
                 Convert to Tailwind CSS and Astro:
               </span>
             </div>
@@ -45,7 +45,7 @@ export async function Services() {
           </div>
           <div>
             <div>
-              <span className="text-white font-display text-xl">
+              <span className="font-display text-white text-xl">
                 Development with Tailwind &amp; Astro:
               </span>
             </div>
