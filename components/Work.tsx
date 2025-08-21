@@ -40,7 +40,7 @@ export function Work() {
             }}
           >
             <SplideSlide>
-              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r ">
+              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r">
                 <span className="block font-semibold">Project 1</span>
               </div>
               <Image
@@ -50,7 +50,7 @@ export function Work() {
               />
             </SplideSlide>
             <SplideSlide>
-              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r ">
+              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r">
                 <span className="block font-semibold">Project 2</span>
               </div>
               <Image
@@ -60,7 +60,7 @@ export function Work() {
               />
             </SplideSlide>
             <SplideSlide>
-              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r ">
+              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r">
                 <span className="block font-semibold">Project 3</span>
               </div>
               <Image
@@ -70,7 +70,7 @@ export function Work() {
               />
             </SplideSlide>
             <SplideSlide>
-              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r ">
+              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r">
                 <span className="block font-semibold">Project 4</span>
               </div>
               <Image
@@ -90,7 +90,7 @@ export function Work() {
               />
             </SplideSlide>
             <SplideSlide>
-              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r ">
+              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r">
                 <span className="block font-semibold">Project 6</span>
               </div>
               <Image
@@ -100,7 +100,7 @@ export function Work() {
               />
             </SplideSlide>
             <SplideSlide>
-              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r ">
+              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r">
                 <span className="block font-semibold">Project 7</span>
               </div>
               <Image
@@ -110,7 +110,7 @@ export function Work() {
               />
             </SplideSlide>
             <SplideSlide>
-              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r ">
+              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r">
                 <span className="block font-semibold">Project 8</span>
               </div>
               <Image
@@ -120,7 +120,7 @@ export function Work() {
               />
             </SplideSlide>
             <SplideSlide>
-              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r ">
+              <div className="order-first p-3 text-center text-white text-xs lg:border-white/20 lg:border-r">
                 <span className="block font-semibold">Project 9</span>
               </div>
               <Image

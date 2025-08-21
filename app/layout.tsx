@@ -143,7 +143,7 @@ const interVariable = localFont({
   display: "swap",
 });
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: React.PropsWithChildren) {
   return (
     <html lang="en" className="selection:bg-orange selection:text-white">
       <body

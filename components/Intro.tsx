@@ -1,6 +1,6 @@
 export async function Intro() {
   return (
-    <section className="border-white/20 border-b ">
+    <section className="border-white/20 border-b">
       <div className="gradient-grid mx-auto max-w-7xl border-white/20 border-x">
         <div className="mx-auto max-w-7xl p-8">
           <p className="font-display text-white text-xl uppercase lg:text-6xl">
