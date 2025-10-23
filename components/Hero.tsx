@@ -1,21 +1,20 @@
 import { Banner } from "@/components/Banner";
+import BgGrid from "@/components/BgGrid";
 import { Testimonials } from "@/components/Testimonials";
 
 export async function Hero() {
   return (
     <section className="border-white/20 border-b">
-      <div className="mx-auto max-w-7xl border-white/20 border-x">
-        <div className="mx-auto">
-          <div className="gradient-grid mx-auto px-8 py-12 lg:pt-28">
-            <h1 className="font-display text-3xl text-white uppercase lg:text-7xl">
-              Maximize your online presence with a unique and engaging one-page website that
-              delivers outstanding results.
-            </h1>
-          </div>
-          <Banner />
-          <Testimonials />
-        </div>
+      <div className="relative bg-grid p-8">
+        <BgGrid />
+
+        <h1 className="relative font-black text-3xl text-white uppercase tracking-tighter lg:text-8xl">
+          Maximize your online presence with a unique and engaging one-page website that delivers
+          outstanding results.
+        </h1>
       </div>
+      <Banner />
+      <Testimonials />
     </section>
   );
 }

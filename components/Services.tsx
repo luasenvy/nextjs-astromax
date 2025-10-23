@@ -1,62 +1,42 @@
+import BgGrid from "@/components/BgGrid";
+
+const services = [
+  {
+    title: "Design in Figma or the Browser",
+    description:
+      "Whether designing in Figma or directly in the browser, I craft interfaces that are both clean and user-friendly. Every layout is tailored to fit your unique goals and audience.",
+  },
+  {
+    title: "Redesign Existing Websites",
+    description:
+      "Got a website that needs a refresh? I’ll review your current design and rework it into something modern, intuitive, and more engaging — both visually and functionally.",
+  },
+  {
+    title: "Convert to Tailwind & Astro",
+    description:
+      "I can help upgrade your current project by converting it to use Tailwind CSS and Astro — improving performance, reducing complexity, and boosting maintainability.",
+  },
+  {
+    title: "Full Website Development",
+    description:
+      "I build fast, responsive websites using Tailwind CSS and Astro. The result: polished, lightweight pages that elevate your brand and support your business goals.",
+  },
+];
+
 export async function Services() {
   return (
-    <section className="border-white/20 border-b">
-      <div className="mx-auto max-w-7xl border-white/20 border-x">
-        <div className="p-8">
-          <p className="font-display text-3xl text-white uppercase lg:text-6xl">
-            our services; Explained
-          </p>
-        </div>
-        <div className="mx-auto grid grid-cols-1 gap-3 gap-y-12 p-8 text-white text-xs sm:grid-cols-2 md:grid-cols-4 md:gap-y-0">
-          <div>
-            <div>
-              <span className="font-display text-white text-xl">Design in Figma or Browser:</span>
-            </div>
-            <p className="mt-3 text-eagle">
-              I offer professional design services using Figma or I can work directly in the
-              browser. As a skilled designer, I will create visually appealing and user-friendly
-              designs specifically tailored to your needs and requirements.
-            </p>
+    <section className="divide-y divide-white/20 border-white/20 border-b">
+      <div className="relative px-8 py-6">
+        <BgGrid />
+        <h2 className="font-black text-3xl text-white uppercase">our services; Explained</h2>
+      </div>
+      <div className="grid grid-cols-1 gap-3 gap-y-12 text-white text-xs md:grid-cols-4">
+        {services.map(({ title, description }, i) => (
+          <div key={`service-item-${i}`} className="p-8">
+            <h3 className="font-black text-lg text-white uppercase">{title}</h3>
+            <p className="mt-3 text-eagle text-sm">{description}</p>
           </div>
-          <div>
-            <div>
-              <span className="font-display text-white text-xl">
-                Redesign of Existing Projects:
-              </span>
-            </div>
-            <p className="mt-3 text-eagle">
-              If you have an existing project that needs a fresh look or improved functionality, I
-              can offer my assistance. I will personally analyze your current design and make
-              strategic enhancements to transform it into a modern and captivating website.
-            </p>
-          </div>
-          <div>
-            <div>
-              <span className="font-display text-white text-xl">
-                Convert to Tailwind CSS and Astro:
-              </span>
-            </div>
-            <p className="mt-3 text-eagle">
-              By converting your project, you can expect faster load times and improved user
-              experiences. Let me assist you in enhancing your existing project, making it more
-              efficient and user-friendly. Together, we can leverage the power of Tailwind CSS and
-              Astro to bring your project to new heights.
-            </p>
-          </div>
-          <div>
-            <div>
-              <span className="font-display text-white text-xl">
-                Development with Tailwind &amp; Astro:
-              </span>
-            </div>
-            <p className="mt-3 text-eagle">
-              I specialize in web development using Tailwind CSS and Astro. I can create visually
-              appealing, functional, and customized websites that align with your brand and meet
-              your business goals. With my expertise, your online presence will be compelling and
-              tailored to your specific needs.
-            </p>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );

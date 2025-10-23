@@ -8,6 +8,9 @@
   --white: #e7e7d8;
   --eagle: #afac95;
   --orange: #ea4125;
+
+  --font-sans: var(--font-geist), sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
 }
 
 @theme inline {
@@ -26,48 +29,31 @@
   }
 }
 
-@layer base {
-  @supports (font-variation-settings: normal) {
-    /* Use variable font if supported */
-    body {
-      font-family: var(--font-interVariable), sans-serif;
-    }
-  }
-
-  body {
-    font-family: var(--font-inter), sans-serif;
-  }
-
-  button:not([disabled]),
-  [role="button"]:not([disabled]) {
-    cursor: pointer;
-  }
-}
-
-@utility font-display {
-  font-weight: 700;
-  font-family: var(--font-basement);
-}
-
-@utility animate-marquee {
-  animation: marquee 15s linear infinite;
-}
-
-@utility gradient-grid {
-  background-image:
-    radial-gradient(circle at center center, transparent 0%, rgba(255, 255, 255, 0) 99%),
+@theme {
+  --background-image-grid:
     repeating-linear-gradient(
-      0deg,
+      to right,
       rgba(205, 205, 205, 0.2) 0px,
       rgba(205, 205, 205, 0.2) 1px,
       transparent 1px,
       transparent 6px
     ),
     repeating-linear-gradient(
-      90deg,
+      to bottom,
       rgba(205, 205, 205, 0.2) 0px,
       rgba(205, 205, 205, 0.2) 1px,
       transparent 1px,
       transparent 6px
-    ), linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    );
+
+  /* Keyframes */
+  --animate-marquee: marquee 50s linear infinite;
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 }
