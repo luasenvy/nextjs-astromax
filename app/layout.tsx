@@ -7,10 +7,12 @@ import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 
 export const metadata = {
-  title: "Astromax",
-  description: "Astromax Theme",
-  generator: "Next.js",
-  authors: [{ name: "Michael Andreuzza", url: "https://github.com/michael-andreuzza/astromax" }],
+  title: "Nextjs - Astromax",
+  description: "Astromax Theme for Next.js",
+  authors: [
+    { name: "Michael Andreuzza", url: "https://github.com/michael-andreuzza/astromax" },
+    { name: "luasenvy", url: "https://github.com/luasenvy/nextjs-astromax" },
+  ],
   keywords: "Add your keywords here",
 };
 
