@@ -6,13 +6,13 @@ export async function Navigation() {
           <span>ASTROMAX</span>
         </a>
         <a
-          href="https://github.com/luasenvy/nextjs-astromax"
+          href="https://github.com/michael-andreuzza/astromax"
           className="w-full bg-white px-6 py-4 text-center font-black text-black text-xs uppercase duration-200 hover:bg-black hover:text-white sm:rounded-full lg:ml-auto lg:w-fit"
         >
-          Nextjs Version
+          Astro Version
         </a>
         <a
-          href="https://github.com/michael-andreuzza/astromax"
+          href="https://github.com/luasenvy/nextjs-astromax"
           className="w-full bg-white px-6 py-4 text-center font-black text-black text-xs uppercase duration-200 hover:bg-black hover:text-white sm:rounded-full lg:w-fit"
         >
           Github
